@@ -1,0 +1,35 @@
+#myparahead:first-line{
+	font-size: 20px !important;
+	color: green;
+	font-weight: bold;
+}
+.mybtn:hover{
+	color: red;
+	font-size: 20px;
+	background-color: green;
+}
+.mypara{
+	text-decoration: underline;
+	margin: 40px;
+	text-transform: uppercase;
+}
+.mydiv{
+	background-color: black !important;
+}
+.mybox1{
+	padding-top: 30px;
+    border: 2px solid black;
+    padding-right: 40px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    margin-bottom: 24px;
+    margin-top: 36px;
+    margin-left: 20px;
+    margin-right: 72px;
+}
+.mybox2{
+	border: 2px solid black;
+	padding: 10px;
+	width: 40%;
+
+}
