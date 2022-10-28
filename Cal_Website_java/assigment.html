@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JavaScript</title>
+</head>
+<style type="text/css">
+	#bg{
+		background-image: url(download.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	.fbg{
+		/*border:1px solid white;*/
+		text-align: center;
+		margin: auto;
+		margin-top: 100px;
+		padding-top: 20px;
+		
+
+		
+	}
+	.wd{
+		margin-bottom: 30px;	
+		padding:10px;
+		border-radius: 20px;
+		width:300px;
+
+	}
+	.pbg{
+		border:1px solid white;
+		width:23%;
+		margin:auto;
+		height:50px;
+		margin-bottom: 30px;
+		background-color: steelblue;
+
+	}
+	.swd{
+		width:320px;
+	}
+	.bwd{
+		width:10%;
+		padding:10px;
+		border-radius: 20px;
+		margin-bottom: 20px;
+	}
+
+
+</style>
+
+<body id="bg">
+<form class="fbg">
+	<h1>Calculator</h1>
+	
+		<input class="wd" id="f1" type="number" name="n1" placeholder="Enter the frist number"><br>
+		<input class="wd" id="f2" type="number" name="n2" placeholder="Enter the Second number"><br>
+			<select class="wd swd" name="domain" id="slect"><br>
+				<option value="">Choose one of the following</option>
+				<option value="Multiplication">Multiplication</option>
+				<option value="Addition">Addition</option>
+				<option value="Subtraction">Subtraction</option>
+			</select>
+		<p class="pbg" id="par">Answe goes here </p>
+		<input class="bwd"  type="button" name="mybtn" value="Calculate" onclick="Calculate_sum();">
+		<!-- <button class="bwd" type="button" value="Calculate" onclick="cal();">Calculate </button> -->
+		<input class="bwd" type="reset" name="mybtn2" value="Reset">	
+	
+
+
+</form>
+
+<script type="text/javascript">
+//	function ch_domain(Selected) {
+			//	var n1=document.getElementById('f1').value;
+			//	var n2=document.getElementById('f2').value;
+//			if (Selected=='Multiplication') {
+//				var result1=n1*n2;
+//				//document.getElementById("par").innerHTML=result1;
+//					
+//			}else if(Selected=='Subtraction'){
+//				var result1=n1-n2;
+//				//document.getElementById("par").innerHTML=result1;
+//				
+//			}else{
+//				var result1=parseInt(n1)+parseInt(n2);
+//				//document.getElementById("par").innerHTML=result1;
+//			 }
+//		
+//	}
+	function Calculate_sum(){	
+				var n1=document.getElementById('f1').value;
+				var n2=document.getElementById('f2').value;
+				var select=document.getElementById('slect').value;
+			if (select=='Multiplication') {
+				var result1=n1*n2;
+				document.getElementById("par").innerHTML=result1;
+					
+			}else if(select=='Subtraction'){
+				var result1=n1-n2;
+				document.getElementById("par").innerHTML=result1;
+				
+			}else{
+				var result1=parseInt(n1)+parseInt(n2);
+				document.getElementById("par").innerHTML=result1;
+			 }
+	
+	}
+
+
+</script>
+
+
+
+
+
+
+</body>
+</html>

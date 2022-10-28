@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My frist JavaScript Program</title>
+</head>
+<body>
+	<form>
+			<input type="number" name="n1" class="myfield">
+			<input type="number" name="n2" class="myfield">
+				<select name="domain" id="domain" onchange="ch_domain(this.value);">
+				<option value="">Choose the following</option>	
+				<option value="tech">tech</option>
+				<option value="non tech">non tech</option>
+				<option value="creative">creative</option>
+			</select>
+			<input type="button" name="mybtn" value="sum" onclick="calculate_sum();" >
+			<p id="Answer">Answer Goes Here</p>
+		
+	</form>
+			<script type="text/javascript">
+				function calculate_sum(){
+					//var n1=document.getElementsByClassName("myfield")[0].value;
+					//var n2=document.getElementsByClassName("myfield")[1].value;
+					var n1=document.getElementsByTagName("input")[0].value;
+					var n2=document.getElementsByTagName("input")[1].value;
+					var result=n1*n2;
+					document.getElementById("Answer").innerHTML=result;
+					document.getElementById('Answer').style.background='steelblue';
+				} 
+				function ch_domain(myselectedoption){
+					//alert(document.getElementById('domain').value)
+					alert(myselectedoption)
+
+				}
+
+
+
+			</script>
+			
+
+
+
+</body>
+</html>
