@@ -1,0 +1,135 @@
+body{
+	background:lightgrey; 
+}
+
+.d1{
+	border:1px solid black;
+	height: 400px;
+	width:100%;
+	background-image: url('down.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;  
+}
+.d2{
+	width:30%;
+	margin:auto;
+	margin-top: 110px;
+
+
+}
+.head{
+	text-transform: capitalize;
+    text-align: center;
+    font-size: larger;
+    color: white;
+    font-weight: bolder;
+    white-space: pre;
+    font-size: 36px;
+    margin-bottom: 4px;
+}
+.b1{
+    padding: 8px;
+    font-size: 11px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    border-radius: 30px;
+    margin-left: 102px;
+    background: linear-gradient(45deg, #00afff, #00cbf9);
+    border: 1px solid white;
+
+}
+.b2{
+	padding: 8px;
+    font-size: 11px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    border-radius: 30px;
+    margin-left: 12px;
+    background: transparent;
+    border: 1px solid white;
+    
+}
+.d3{
+	text-align: center;
+    white-space: pre;
+    margin-bottom: -73px;
+}
+.head2{
+	    margin-bottom: -29px;
+}
+.d4{
+	
+	float: left;
+	text-align: center;
+	height: 400px;
+	width:30%;
+	margin: 20px;
+	padding-top: 10px;
+	background-color: white;
+	border-radius: 20px;
+}
+.b3{
+	    padding: 18px;
+    font-size: 11px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    border-radius: 30px;
+    background: linear-gradient(45deg, #00afff, #00cbf9);
+    border: 1px solid white;
+    margin-top: 25px;
+    width: 128px;
+}
+.sp{
+	font-size: 20px;
+	font-weight: bolder;
+}
+.d5{
+	text-align: center;
+	white-space: pre;
+	clear: left;
+
+}
+.head4{
+	margin-bottom: -29px;
+	font-weight: bold;
+}
+.d6{
+	text-align: left;
+	width:49%;
+
+}
+.head5{
+	margin-left: 33px;
+}
+.d7{
+	width: 42%;
+    float: right;
+    margin-top: -132px;
+
+}
+.b4{
+	margin-top: -1px;
+    width: 520px;
+    padding: 7px;
+}
+.b5{
+	margin-top: -1px;
+    width: 535px;
+    height: 115px;
+}
+.b6{
+padding: 8px;
+    font-size: 11px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    border-radius: 30px;
+    background: linear-gradient(45deg, #00afff, #00cbf9);
+    border: 1px solid white;
+    width: 90px;
+}
+.fa{
+	color: #00d0ff;
+}
+.msp{
+	margin-left: -41px;
+}

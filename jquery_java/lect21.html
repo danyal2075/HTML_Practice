@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+		<h2>My Frist Java Program</h2>
+	
+	<p id="demo"></p> 
+	<button onclick="show_date();">Click me</button>
+	<input type="number" name="n1" placeholder="Enter the number" id="n1">
+	<input type="number" name="n2" placeholder="Enter the number" id="n2">
+	<input type="button" name="mybtn" value="sum" onclick="calculate_sum();">
+
+
+	<script type="text/javascript">
+		
+		function calculate_sum(){
+			var number1=document.getElementById('n1').value;
+			var number2=document.getElementById('n2').value;
+			var result=	parseInt(number1)+parseInt(number2);
+			//alert(result);
+			//document.write(result);
+			console.log(result);
+			window.print();	
+		}
+	</script>
+
+
+</body>
+</html>

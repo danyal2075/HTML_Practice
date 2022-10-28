@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("#mybtn").click(function(){
+    //alert("My First Jquery Practice")
+   	var g1=$("#n1").val();
+   	var g2=$("#n2").val();
+    $("#para").html(g1*g2);
+    $("#mybtn").css('background','red');
+
+  });
+});
+</script>
+</head>
+<body>
+	<input type="number" name="n1" id="n1">
+	<input type="number" name="n2" id="n2">
+<button id="mybtn" >Click Me</button>
+<p id="para"></p>
+</body>
+</html>

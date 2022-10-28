@@ -1,0 +1,12 @@
+#mydiv{
+	border:1px solid black;
+	width:50%;
+	float:left;
+	background-color: blue; 
+}
+#mydiv2{
+	border:1px solid black;
+	width:49%;
+	float:right; 
+	background-color: yellow;
+}

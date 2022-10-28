@@ -1,0 +1,59 @@
+body{
+	background-image: url('style.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+h2{
+text-align: center;
+opacity: 438%;
+    font-size: 30px;
+    color: lemonchiffon;
+    margin-top: 34px;
+
+}
+
+.wrap{
+	height: 500px;
+    width: 400px;
+    margin: auto;
+    border-radius: 10px;
+    background-color: #293c4ca1;
+    padding: 10px;
+    margin-top: 41px;
+
+}
+input[type="text"],input[type="email"],input[type="password"]{
+	color: white;
+	width: 66%;
+    margin-left: 67px;
+    margin-bottom: 30px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+
+
+}
+#sub{
+	color: white;
+	width: 50%;
+    padding: 10px;
+    border-radius: 20px;
+    margin-left: 103px;
+    font-size: 16px;
+    font-family: cursive;
+    font-weight: bold;
+    margin-top: 22px;
+    border: none;
+}
+#sub:hover{
+background-color: steelblue;
+color:green;
+font-weight:bold;
+border:none;
+font-size:20px;
+margin-top: 26px; 
+
+}
+
+
